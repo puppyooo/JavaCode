@@ -26,6 +26,7 @@ public class ThreadPoolFunc {
             e.printStackTrace();
         }
         System.out.println("result is " + result);
+        System.out.println("hello world");
         executor.shutdown();
     }
     public static class Task implements Callable<Integer> {
